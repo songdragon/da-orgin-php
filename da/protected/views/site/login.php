@@ -48,6 +48,10 @@ $this->breadcrumbs=array(
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Login'); ?>
 	</div>
+	
+	<div>
+		<?php echo CHtml::link(CHtml::encode('注册'), array('/user/register', ));?>
+	</div>
 
 <?php $this->endWidget(); ?>
 </div><!-- form -->
